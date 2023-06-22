@@ -24,7 +24,7 @@ gabung = false -- true jika kamu ingin gabung cek owner ; false jika kamu ingin 
 worldCek = "" -- isi nama world cek jika ingin gabung , jika tidak tulis di meetbotworld
 
 --SETTING SEED
-seedid = 4571 --id seed
+seedid = 4585 --id seed
 worldSeed = "GGJMSLI12" --name world save seed
 saveidSeed = "MMK23" --id door world save seed
 webhookSeed = "https://discord.com/api/webhooks/1121294820346966076/upRbu3LMuu5IcSCqpVe2wUvIrHIGA27HSVzKDDcoNCAOFW08hRG9xsrH2RQHmL3j1OzN" --webhook buat ngasih info drop seed
@@ -62,7 +62,7 @@ resetTime = true
 customShow = false
 showList = 13
 
-takePickaxe = true
+takePickaxe = false
 worldPickaxe = "BBKLTZUUSP"
 doorPickaxe = "MMK23"
 
@@ -78,8 +78,8 @@ Other = {
 }
 
 Other.autoLeave = {
-    Active = false, 
-    whiteList = "NAMEOWNER",
+    Active = true, 
+    whiteList = "PLEXTONE",
     Delay = 20 --Detik
 }
 
