@@ -2,27 +2,27 @@ Main = {
     Bot = {}
 }
 
-Main.Bot["z0tgGZDB"] = {
-    listWorld = {"SWIEQVMSOH", "SQDYZTONHK", "VIFHTNBZOF"}, 
-    doorFarm = "copo2323", 
+Main.Bot["Z0TGGZDB"] = {
+    listWorld = {"8536798V","33TFL415","9C9LYEKZ","D5W7GMT4","YN34147V","G25849B8","3X949K3G","84V1ELII","7W5K887F","6153964D","9C265I7Z","4BL7PFM8"}, 
+    doorFarm = "COPO2323", 
     upgradeBackpack = 2,
     posisiX = 1,
     posisiY = 15,
     worldStart = 1,--bot start world
     editWebhook = "true", --if true no spam
-    messageId = "1121285818842087454", --only for edit webhook true
-    webhookLink = "https://discord.com/api/webhooks/1121285753499025408/E4p2W6qeTBEoOWLlS4k9GL4EwV9QZz4iLO7aUzX4uXA3rhSGDLZ3wuxl_vzX0UAKK9Xg"
+    messageId = "1121315704885485588", --only for edit webhook true
+    webhookLink = "https://discordapp.com/api/webhooks/1121314709921071144/EK0be5T6877Hk_vCnT0RCR77GY-P5y7zGySTK1Aa3f3UyHuSLet4hCcumiK7y82TnRLf"
 }
-Main.Bot["OmiAGinm"] = {
-    listWorld = {"8536798V","33TFL415","9C9LYEKZ"}, 
-    doorFarm = "copo2323", 
+Main.Bot["0FFC0GZO"] = {
+    listWorld = {"7N5MM58L","W8SGXDJJ","R8TUF5N4","H2P29RB9","U8SQVHB2","SD8Q49N8","36L1FP25","63X76L3Q","O2IKNDWZ","53I471AF","Y7A6F4F8","3447K2HD"}, 
+    doorFarm = "COPO2323", 
     upgradeBackpack = 2,
     posisiX = 1,
     posisiY = 15,
     worldStart = 1,--bot start world
     editWebhook = "true", --if true no spam
-    messageId = "1121287045424361472", --only for edit webhook true
-    webhookLink = "https://discordapp.com/api/webhooks/1120370246512033885/S01t3fOcIO6dvgZzaOir7-118z_DhHkJITwsbCKh5Te38540QhtwbUlkWW3luJhN9OFl"
+    messageId = "1121315732962160660", --only for edit webhook true
+    webhookLink = "https://discordapp.com/api/webhooks/1121314709921071144/EK0be5T6877Hk_vCnT0RCR77GY-P5y7zGySTK1Aa3f3UyHuSLet4hCcumiK7y82TnRLf"
 }
 
 looping = true
@@ -30,21 +30,21 @@ cutName = true --name world and bot
 
 --SETTING OWNER
 OwnerID = "PLEXTONE"  -- Isi Sesuai sama yg di daftarkan
-MeetBotWorld = "ookitaki2"  -- Tulis World Farm Pertama Kalian
+MeetBotWorld = "OOKITAKI2"  -- Tulis World Farm Pertama Kalian
 gabung = false -- true jika kamu ingin gabung cek owner ; false jika kamu ingin pisah cek owner
-worldCek = "" -- isi nama world cek jika ingin gabung , jika tidak tulis di meetbotworld
+worldCek = "OOKITAKI2" -- isi nama world cek jika ingin gabung , jika tidak tulis di meetbotworld
 
 --SETTING SEED
 seedid = 4571 --id seed
-worldSeed = "ggjmsli12" --name world save seed
-saveidSeed = "mmk23" --id door world save seed
+worldSeed = "GGJMSLI12" --name world save seed
+saveidSeed = "MMK23" --id door world save seed
 webhookSeed = "https://discord.com/api/webhooks/1121294820346966076/upRbu3LMuu5IcSCqpVe2wUvIrHIGA27HSVzKDDcoNCAOFW08hRG9xsrH2RQHmL3j1OzN" --webhook buat ngasih info drop seed
 messageidSeed = "1121294906401505280" --message id webhook seed
 patokanSeed = 16
 
 --SETTING PACK
-worldPack = "blfjakajdk2" --name world
-saveidPack = "mmk23" --door id
+worldPack = "BLFJAKAJDK2" --name world
+saveidPack = "MMK23" --door id
 webhookPack = "https://discord.com/api/webhooks/1121292642999861348/EcBHI0pkBdwesS3fx-F2P-HEUqu3ms975FQ-ucJFVsWqoj0O80GIR9WCjjA0YLhqx1hk" --buat ngasih info pack
 messageidPack = "1121292721873760306" --message id webhook
 patokanPack = 16 --patokan buat drop pack
@@ -73,9 +73,9 @@ resetTime = true
 customShow = false
 showList = 13
 
-takePickaxe = true
+takePickaxe = false
 worldPickaxe = "BBKLTZUUSP"
-doorPickaxe = "mmk23"
+doorPickaxe = "MMK23"
 
 
 pisahplantHt = true
@@ -95,7 +95,7 @@ Other.autoLeave = {
 }
 
 Other.RestTime = {
-    Active = true,
+    Active = false,
     Timezone = "UTC+7",
     Rest = {
         {offline = "19:00"},
