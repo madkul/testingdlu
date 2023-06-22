@@ -13,17 +13,6 @@ Main.Bot["Z0TGGZDB"] = {
     messageId = "1121315704885485588", --only for edit webhook true
     webhookLink = "https://discordapp.com/api/webhooks/1121314709921071144/EK0be5T6877Hk_vCnT0RCR77GY-P5y7zGySTK1Aa3f3UyHuSLet4hCcumiK7y82TnRLf"
 }
-Main.Bot["0FFC0GZO"] = {
-    listWorld = {"7N5MM58L","W8SGXDJJ","R8TUF5N4","H2P29RB9","U8SQVHB2","SD8Q49N8","36L1FP25","63X76L3Q","O2IKNDWZ","53I471AF","Y7A6F4F8","3447K2HD"}, 
-    doorFarm = "COPO2323", 
-    upgradeBackpack = 2,
-    posisiX = 1,
-    posisiY = 15,
-    worldStart = 1,--bot start world
-    editWebhook = "true", --if true no spam
-    messageId = "1121315732962160660", --only for edit webhook true
-    webhookLink = "https://discordapp.com/api/webhooks/1121314709921071144/EK0be5T6877Hk_vCnT0RCR77GY-P5y7zGySTK1Aa3f3UyHuSLet4hCcumiK7y82TnRLf"
-}
 
 looping = true
 cutName = true --name world and bot
@@ -32,7 +21,7 @@ cutName = true --name world and bot
 OwnerID = "PLEXTONE"  -- Isi Sesuai sama yg di daftarkan
 MeetBotWorld = "OOKITAKI2"  -- Tulis World Farm Pertama Kalian
 gabung = false -- true jika kamu ingin gabung cek owner ; false jika kamu ingin pisah cek owner
-worldCek = "OOKITAKI2" -- isi nama world cek jika ingin gabung , jika tidak tulis di meetbotworld
+worldCek = "" -- isi nama world cek jika ingin gabung , jika tidak tulis di meetbotworld
 
 --SETTING SEED
 seedid = 4571 --id seed
@@ -73,7 +62,7 @@ resetTime = true
 customShow = false
 showList = 13
 
-takePickaxe = false
+takePickaxe = true
 worldPickaxe = "BBKLTZUUSP"
 doorPickaxe = "MMK23"
 
@@ -95,7 +84,7 @@ Other.autoLeave = {
 }
 
 Other.RestTime = {
-    Active = false,
+    Active = true,
     Timezone = "UTC+7",
     Rest = {
         {offline = "19:00"},
